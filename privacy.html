@@ -45,6 +45,7 @@
 <h2>Update alerts (push notifications)</h2>
 <p>In the iPhone and iPad app, the game may ask whether you want a notification when a new version or event is out. It stays off unless you tap "Notify me" and then allow notifications in the system prompt. You can turn it off at any time in Settings under "Update alerts", or in your device's notification settings. Your choice does not affect play, rewards or cloud saves.</p>
 <p>If you turn it on, Firebase Cloud Messaging (Google) and the Apple Push Notification service receive a push token for your device so the notification can be delivered. We send the same message to everyone who opted in; we do not use the token to identify you, and it is not linked to your player name, sign-in account or cloud save. Turning update alerts off unsubscribes your device and deletes the token.</p>
+<p>In the Android app, update alerts are delivered through Firebase Cloud Messaging (Google). If you turn them on, Google receives a push token for your device, and on Android 13 or later the system asks for your permission to show notifications. Turning update alerts off deletes the token.</p>
 
 <h2>How we use it</h2>
 <ul>
